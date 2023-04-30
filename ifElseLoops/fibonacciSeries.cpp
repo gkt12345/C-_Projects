@@ -21,7 +21,7 @@ int main()
 
         // main code
         int curr = first + second;
-        first s= second;
+        first = second;
         second = curr;
         cout << curr << ", ";
     }
