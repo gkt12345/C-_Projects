@@ -8,18 +8,23 @@ using namespace std;
 int main()
 {
     int n = 5;
-    int arr[n] = {5, 1, 2, 3, 4};
+    int arr[n] = {1, 2, 3, 4, 5};
 
+    int s=0, e=n-1, mid;
+    // O(log(n))
+    while(s < e){
+        mid = s + (e - s) / 2;
+
+        if(arr[mid] > arr[e])
+            s = mid+1;
+        else
+            e = mid;    
+    }
      
-    
+     cout<<s;
+
     return 0;
 }
-
-
-
-
-
-
 
 
 
