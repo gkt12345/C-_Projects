@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
 
-// Inserstion sort
+// Inserstion sort: divide arr in 2 part, sort and unsort. 
+// picked values from unsorted part and move it to its right position
+
 int main()
 {
     int arr[5] = {8,7,2,1,6};

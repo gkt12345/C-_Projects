@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Bubble sort
+Bubble sort
 int main()
 {
     int arr[5] = {8,7,2,1,6};
